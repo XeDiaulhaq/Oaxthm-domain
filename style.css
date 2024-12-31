@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.main, sec{
+.main sec{
     font-size: 29px;
     color: white;
     padding: 20px;
