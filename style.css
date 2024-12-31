@@ -9,8 +9,15 @@ body {
     margin: 0;
 }
 
-.main .sec{
+.main{
     font-size: 29px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Ysabeau SC", serif;
+}
+.sec{
+    font-size: 27px;
     color: white;
     padding: 20px;
     text-align: center;
