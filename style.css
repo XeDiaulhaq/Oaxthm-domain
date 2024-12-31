@@ -16,13 +16,14 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    margin-bottom: 10px; /* Menyesuaikan jarak antar elemen */
 }
 
 .sec {
-    font-size: 26px;
+    font-size: 27px;
     color: white;
-    padding: 20px;
+    padding: 10px; /* Mengurangi padding agar terlihat lebih dekat */
     text-align: center;
-    margin-top: 0; /* Menghapus margin atas blockquote bawaan */
+    margin: 0; /* Menghilangkan margin default blockquote */
     font-style: italic; /* Memberi gaya italic khas kutipan */
 }
