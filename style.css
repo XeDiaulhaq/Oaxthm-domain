@@ -3,23 +3,26 @@
 body {
     background-color: black;
     display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: "Ysabeau SC", serif;
 }
 
-.main{
+.main {
     font-size: 29px;
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: "Ysabeau SC", serif;
 }
-.sec{
+
+.sec {
     font-size: 27px;
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: "Ysabeau SC", serif;
+    margin-top: 0; /* Menghapus margin atas blockquote bawaan */
+    font-style: italic; /* Memberi gaya italic khas kutipan */
 }
