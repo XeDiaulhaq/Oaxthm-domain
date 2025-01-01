@@ -16,7 +16,7 @@ body {
     color: white;
     text-align: center;
     margin-bottom: 5px;
-border-bottom: 2px white;
+border-bottom: 2px solid white;
 width: fit-content
 }
 
