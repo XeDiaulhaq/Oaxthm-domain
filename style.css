@@ -3,7 +3,7 @@
 body {
     background-color: black;
     display: flex;
-    flex-direction: column; /* Menyusun elemen secara vertikal */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -15,22 +15,24 @@ body {
     font-size: 29px;
     color: white;
     text-align: center;
-    margin-bottom: 5px; /* Mengurangi jarak vertikal */
+    margin-bottom: 5px;
+border-bottom: 4px solid white;
+width: fit-content
 }
 
 .sec {
     font-size: 27px;
     color: white;
     text-align: center;
-    margin: 0; /* Menghilangkan margin default blockquote */
-    font-style: italic; /* Memberi gaya italic khas kutipan */
+    margin: 0;
+    font-style: italic;
 }
 
 @media (max-width: 600px) {
     .main {
-        font-size: 18px; /* Ukuran teks lebih kecil pada layar kecil */
+        font-size: 18px; 
     }
     .sec {
-        font-size: 16px; /* Ukuran teks lebih kecil pada layar kecil */
+        font-size: 16px; 
     }
 }
